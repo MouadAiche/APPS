@@ -6,7 +6,7 @@ A clean and minimal **HTML**, **CSS**, and **JavaScript** project that calculate
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO](https://your-vercel-link.vercel.app/)
+🔗 [LIVE DEMO](https://circumferencecalculator.vercel.app/)
 
 ---
 
