@@ -6,7 +6,7 @@ A simple, interactive **HTML**, **CSS**, and **JavaScript** counter app. Users c
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO](https://your-counter-app.vercel.app/)
+🔗 [LIVE DEMO](https://counterprogram.vercel.app/)
 
 ---
 
