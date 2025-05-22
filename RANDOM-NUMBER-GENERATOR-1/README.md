@@ -1,4 +1,4 @@
-# 🎲 Random Number Generator
+# 🎲 Random Number Generator 1
 
 A simple and responsive **HTML**, **CSS**, and **JavaScript** project that generates a random number from 1 to 6. Great for beginners to learn basic DOM manipulation, math functions, and event handling!
 
@@ -22,7 +22,7 @@ A simple and responsive **HTML**, **CSS**, and **JavaScript** project that gener
 
 ## 📁 Project Structure
 
-📦 Random Number Generator  
+📦 Random Number Generator 1
 ├── index.html  
 ├── style.css  
 ├── app.js  
