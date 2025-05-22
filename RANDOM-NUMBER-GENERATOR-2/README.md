@@ -6,7 +6,7 @@ A clean and responsive **HTML**, **CSS**, and **JavaScript** project that genera
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO]()
+🔗 [LIVE DEMO](https://random-number-generator-2.vercel.app/)
 
 ---
 
