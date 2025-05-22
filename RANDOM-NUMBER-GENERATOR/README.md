@@ -6,7 +6,7 @@ A simple and responsive **HTML**, **CSS**, and **JavaScript** project that gener
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO]()
+🔗 [LIVE DEMO](https://random-number-generator-xi-seven.vercel.app/)
 
 ---
 
