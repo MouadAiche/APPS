@@ -6,7 +6,7 @@ A beginner-friendly **HTML**, **CSS**, and **JavaScript** project that checks a 
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO]()
+🔗 [LIVE DEMO](https://age-checker-neon.vercel.app/)
 
 ---
 
