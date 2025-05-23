@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  background: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* User desires section */
+.userdesires {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.userdesires h1 {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.userdesires label {
+  margin-right: 0.5rem;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+}
+
+.userdesires input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+
+/* Roll container */
+.rollcontainer {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rollcontainer h1 {
+  color: #1f2937;
+}
+
+/* Labels container */
+.labelcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Each label */
+.label {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0.75rem;
+  user-select: none;
+  box-shadow: 0 4px 8px rgba(59,130,246,0.4);
+}
+
+/* Roll button */
+button#roll {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+button#roll:hover {
+  background-color: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .userdesires, .rollcontainer {
+    padding: 1rem;
+  }
+  .label {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5rem;
+  }
+  .labelcontainer {
+    gap: 1rem;
+  }
+}
