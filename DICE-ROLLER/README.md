@@ -6,7 +6,7 @@ An interactive and responsive **HTML**, **CSS**, and **JavaScript** project that
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO]()
+🔗 [LIVE DEMO](https://dice-roller-snowy.vercel.app/)
 
 ---
 
