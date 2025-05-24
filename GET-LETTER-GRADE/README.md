@@ -6,7 +6,7 @@ A simple and responsive **HTML**, **CSS**, and **JavaScript** project that calcu
 
 ## 📺 Live Demo
 
-🔗 [LIVE DEMO]()
+🔗 [LIVE DEMO](https://get-latter-garde.vercel.app/)
 
 ---
 
