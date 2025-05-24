@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>(+18) Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="checker-container">
+    <h1 class="title">Age Verification</h1>
+    
+    <form class="checker-form" onsubmit="return false;">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" placeholder="e.g. Alex" />
+      </div>
+
+      <div class="form-group">
+        <label for="age">Your Age</label>
+        <input id="age" type="number" placeholder="e.g. 21" />
+      </div>
+
+      <button id="submit" type="submit">Check</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
