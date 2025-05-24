@@ -1,0 +1,109 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading */
+.inputs-container h1 {
+  font-size: 1.75rem;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+/* Form Elements */
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  color: #4b5563;
+  font-weight: 600;
+  margin-bottom: 3px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  background-color: #f9fafb;
+  transition: border 0.3s ease;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* Button Styling */
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Output Styling */
+.outcomes-container h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  min-height: 1.5em;
+}
+
+.outcomes-container h1::after {
+  content: "";
+  display: block;
+  margin: 0.5rem auto 0;
+  height: 2px;
+  width: 50px;
+  background-color: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 1.75rem;
+  }
+}
